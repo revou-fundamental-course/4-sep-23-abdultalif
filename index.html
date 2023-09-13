@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kalkulator Luas dan Keliling Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/1.jpg" alt="Gambar Persegi" id="squareImage">
+        <h1 id="judulkalkulator">Kalkulator Luas Persegi</h1>
+        <label for="panjangsisi">Panjang Sisi (cm):</label>
+        <input type="number" id="panjangsisi" placeholder="Masukkan panjang sisi">
+
+        <label>Jenis Perhitungan:</label>
+        <input type="radio" name="tipepersegi" value="luas" checked> Luas
+        <input type="radio" name="tipepersegi" value="keliling"> Keliling
+        <br>
+        <button id="hitung">Hitung</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
